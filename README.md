@@ -1,5 +1,7 @@
 # cod4x_promod
+
 Cod4x promod server 
+
 Install linux, in my case use Ubuntu Server 20 LTS
 
 apt update && apt upgrade
