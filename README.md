@@ -61,6 +61,9 @@ chmod -R 777 cod4x18_dedrun main pb mods
 *upload mod and unzip*
 
 
+**Put the server.cfg into "/home/servers/cod4/main" folder not just in cod4 folder**
+
+
 nano start.sh
 
 
@@ -79,5 +82,3 @@ cd /home/servers/cod4
 
 *Install htop to monitor the process "Screen cod4x18..."*
 
-
-**Put the server.cfg into "/home/servers/cod4/main" folder not just in cod4 folder**
