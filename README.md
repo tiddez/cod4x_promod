@@ -28,9 +28,6 @@ sudo apt install libc6:i386 libncurses5:i386 libstdc++6:i386
 sudo apt install steamcmd
 
 
-ln -s /root/.local/share/Steam/steamcmd/linux32/steamclient.so /home/servers/cod4
-
-
 cd /home
 
 
@@ -46,16 +43,19 @@ wget https://ia804705.us.archive.org/15/items/cod4_linux_server_files_201501/cod
 apt install unzip
 
 
-unzip cod4x_server-linux_20.1.zip
+unzip cod4_linux_server_files.zip
 
 
 cd cod4
 
 
+ln -s /root/.local/share/Steam/steamcmd/linux32/steamclient.so /home/servers/cod4
+
+
 chmod -R 777 cod4x18_dedrun main pb mods
 
 
-upload mod and pb file and unzip
+upload mod and unzip
 
 
 nano start.sh
@@ -77,4 +77,4 @@ cd /home/servers/cod4
 Install htop to monitor the process "Screen cod4x18..."
 
 
-#Colocar o server.cfg dentro da pasta main
+Put the server.cfg into "/home/servers/cod4/main" folder not just in cod4 folder
