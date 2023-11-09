@@ -1,4 +1,4 @@
-# cod4x promod Server
+# cod4x Promod Server
 
 
 *Install linux, in my case use Ubuntu Server 20 LTS*
