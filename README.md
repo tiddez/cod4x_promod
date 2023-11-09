@@ -1,10 +1,15 @@
 # cod4x_promod
 
-Cod4x promod server 
+
+Cod4x promod server
+
 
 Install linux, in my case use Ubuntu Server 20 LTS
 
+
 apt update && apt upgrade
+
+
 apt install screen
 dpkg --add-architecture i386
 apt update
